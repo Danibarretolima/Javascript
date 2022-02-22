@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro Script</title>
+    <style>
+        body{font:Normal 20pt Arial;}
+    </style>
+</head>
+<body>
+   
+    <script>
+            //var n1 = Number(window.prompt('Digite um numero: '))//String
+
+            //var n2 = Number(window.prompt('Digite outro numero: '))//String
+
+            //var s = n1 + n2
+
+            //window.alert(`A soma entre ${n1} e ${n2} é igual a ${s} `)//Concatenação
+
+           //Formatando String
+
+           //'Eu estou aprendendo s'    NÃO FAZ INTERPOLAÇÃO
+           //'Eu estou aprendendo '+ s  USA CONCATENAÇÃO
+           //`Eu estou aprendendo ${s}` USA TEMPLATE STRING 
+
+           //Existem outras coisas que podemos fazer com String por exemplo:
+
+           // var s = 'JavaScript'
+           //s.length        //Este atributo dia quantos caracteres a string tem
+           //s.toUpperCase() //Este atributo deixa os caracteres em Maiusculo
+           //s.toLoweCase()  //Este atributo deixa tudo em Minusculo
+
+           var nome = window.prompt('Qual é o seu nome?')
+
+           document.write(`Olá <Strong>${nome}</Strong>, Seu nome tem ${nome.length} letras.<br><br>`)
+
+           document.write(`Seu nome em maisculo fica ${nome.toLocaleUpperCase()}<br><br>`)
+
+           document.write(`Seu nome em minusculo fica ${nome.toLocaleLowerCase()}`)
+
+// Formatando Numero
+//Exemplo:
+
+// .toFixed() PARA ESCREVER O NUMERO EM MAIS CASAS DECIMAIS
+//.toFixed().replace('.' ,',') PARA TROCAR O . POR ,
+//.toLocaleString('pt-BR',{style: 'currency', currency: 'BRL'}) PARA COLOCAR VALOR MONETARIO E A MOEDA DO PAIS 
+
+
+
+
+
+            
+
+
+    </script>
+</body>
+</html>

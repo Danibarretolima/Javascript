@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro Script</title>
+    <style>
+        body{background-color: aqua;
+              text-align: center;}
+
+        header{background-color: brown;
+            border-radius: 10px;
+        padding: 10px;}
+
+        main{padding-top: 10px;
+            background-color: white;}
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Olá, mundo!</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus possimus officiis voluptate exercitationem facere accusamus, illum omnis! Expedita animi placeat voluptas, atque cupiditate fuga esse reiciendis perferendis vel et officia?</p>
+</header>
+<main>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi soluta id quod facere. Molestiae, qui ut! Officiis numquam ipsa voluptatem reprehenderit. Non, veritatis praesentium? Veniam iure velit recusandae saepe! Aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio deleniti corporis maiores, explicabo dolore necessitatibus voluptatem voluptatibus vero ullam amet quo, dignissimos assumenda consequatur voluptas culpa. Harum autem incidunt maiores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eos sequi quo natus nostrum nobis obcaecati ratione! Nisi, et officiis totam dolores placeat cumque deleniti neque? Beatae dolores odit sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ab enim assumenda totam odio aspernatur aut natus modi animi! Vero eaque eos necessitatibus doloremque, culpa enim laboriosam perspiciatis id dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore omnis facilis, praesentium exercitationem ex earum esse aliquid culpa quas blanditiis cupiditate autem, in vel! Officia magnam deserunt perspiciatis quibusdam sed.</p>
+</main>
+    <script>
+            var n1 = Number(window.prompt('Digite um numero: '))//String
+
+            var n2 = Number(window.prompt('Digite outro numero'))//String
+
+            var s = n1 + n2
+
+            window.alert(`A soma entre ${n1} e ${n2} é igual a ${s} `)//Concatenação
+
+            //O simbulo de + pode ser usado tando para:
+            //(Number + Number) para adição
+            //(String + String) para concatenação
+
+            //Para avisar ao computador que queros usar o + para soma devemos colocar uma propriedade chamada Number no codigo
+
+            //Também podemos usar o Number para especificar se ele é inteiro ou real com a propriedade Number.parseFloat ou Number.parseInt mas podemos utilizar somente Number para fazer nossas somas 
+
+            //Caso queira fazer uma conversão de numero para String você pode usar a propriedade :
+            //String(n)
+            //n.toString()
+
+            //Exemplo:
+            //window.alert('A soma dos numeros é: '+s.toString()) 
+            //window.alert('A soma dos numeros é: '+String(s))
+
+
+            
+
+
+    </script>
+</body>
+</html>
