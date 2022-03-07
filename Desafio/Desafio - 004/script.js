@@ -1,20 +1,20 @@
-function carregar() {
-    var msg = window.document.getElementById('msg')
-    var img = window.document.getElementById('imagem')
-    var data = new Date()
-    var hora = data.getHours()
-    msg.innerHTML = `Agora são ${hora} horas.`
-    if(hora >= 0 && hora < 12){
-        //BOM DIA!
-        img.src = 'imagens/manha.PNG'
-        document.body.style.background = '#e2cd9f'
-} else if(hora >= 12 && hora < 18){
-    //BOA TARDE
-    img.src = 'imagens/tarde.PNG'
-    document.body.style.background = '#b9846f'
-}else{
-    //BOA NOITE
-    img.src = 'imagens/noite.PNG'
-    document.body.style.background = '#515154'
-}
+function tabuada(){
+    var num = document.getElementById('txtn')
+    var tab = document.getElementById('seltab')
+    if(num.value.length == 0)
+        {window.alert('Por favor digite um número!')
+    } else {
+        var n = Number(num.value)
+        var c = 1
+        tab.innerHTML = ''
+        while(c <= 10){
+            var iten = document.createElement('option')
+            iten.text = `${n} x ${c} = ${n*c}`
+            iten.value = `tab${c}`
+            tab.appendChild(iten)
+            c++
+        }
+    }
+    
+
 }
