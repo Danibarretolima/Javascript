@@ -22,7 +22,7 @@ div{
     padding: 8px;
 }
 
-select#flista{}
+select#flista{width: 150px;}
 
 footer{color: white;
     text-align: center;
