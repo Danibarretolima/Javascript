@@ -20,7 +20,7 @@ for(let i = 0; i < aluno.length;i++){
 }
 */
 
-
+//MANEIRA MAIS FACIL
 let aluno = ['Maria', 'João', 'Lucas','Vini']
 
 for(let i in aluno){
