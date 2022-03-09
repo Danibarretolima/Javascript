@@ -10,3 +10,10 @@ function media(n1, n2){
 }
 
 var resultado = media(6, 7)
+var m = media
+
+
+var resultado2 = m(2,3)
+
+console.log(resultado)
+console.log(resultado2)
