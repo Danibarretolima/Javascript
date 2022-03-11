@@ -1,8 +1,7 @@
-/*var media = function(n1,n2){
+var media = function(n1,n2){
     return (n1 + n2) / 2
 }
 
 console.log(media(5, 6));
 
-//ou*/
 
